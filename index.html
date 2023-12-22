@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Zone</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="bg-body-tertiary">
+  <header class="container mx-auto">
+    <!-- nav section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mt-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Food Zone</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-success fs-5 fw-semibold">Book Table</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner section -->
+    <div class="row px-3 mt-5 justify-content-center align-items-center mb-5">
+      <div class="col-6">
+        <div class="">
+          <h1>The flavor of tradition</h1>
+          <p>We are a multi-cuisine restaurant offering a wide variety of food experience in both casual and fine dining environment.</p>
+        </div>
+        <div>
+          <button class="btn btn-success fs-5 fw-semibold">Explore Menu</button>
+          <button class="fs-5 btn text-success text-decoration-none fw-semibold">Book Table</button>
+        </div>
+      </div>
+      <div class="col-6">
+        <img class="w-full" src="images/heroimg.png" alt="">
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- events section -->
+    <section class="container mb-5">
+      <div class="d-flex justify-content-center flex-wrap gap-1 mt-5 mb-5 text-center">
+        <div class="bg-event p-3 rounded-4">
+          <svg class="w-25 h-25 event" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <h4>10 AM - 7 PM</h4> 
+          <h5>Opening Hour</h5> 
+        </div>    
+        <div class="bg-event rounded-4 p-3">
+          <svg class="w-25 h-25 text-center" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+          </svg>
+          
+          
+          <h4>10 AM - 7 PM</h4> 
+          <h5>Opening Hour</h5> 
+        </div>    
+        <div class="bg-event rounded-4 p-3">
+          <svg class="w-25 h-25 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg>
+          
+          <h4>10 AM - 7 PM</h4> 
+          <h5>Opening Hour</h5> 
+        </div>    
+      </div>
+    </section>
+    <!-- our special section -->
+    <section class="container">
+      <div class="d-flex justify-content-center flex-wrap gap-5">
+        <div class="my-3">
+          <div class="special-card-img position-relative z-1">
+            <img class="" src="images/food1.jpg" alt="">
+          </div>
+          <div class="bg-event special-card px-3 fw-semibold">
+            <h3 class="text-color-gray">Sweet Potato Fries Bowl</h3>
+            <div class="text-success">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>        
+            </div>
+            <h4 class="text-success">$18</h4>
+            <p>These Sweet Potato Fries bowl are a glorious, messy plate of goodness. Crispy sweet potato fries loaded with lots of fresh summer vegetables and a lime ranch. By adding a seasoning blend with chipotle powder, garlic, and onion, these spicy sweet potato fries are full of flavor.</p>
+          </div>
+        </div>
+        
+        <div class="my-3">
+          <div class="special-card-img position-relative z-1">
+            <img src="images/food2.jpg" alt="">
+          </div>
+          <div class="bg-event special-card px-3 fw-semibold">
+            <h3 class="text-color-gray">Sweet Potato Fries Bowl</h3>
+            <div class="text-success">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>        
+            </div>
+            <h4 class="text-success">$18</h4>
+            <p>These Sweet Potato Fries bowl are a glorious, messy plate of goodness. Crispy sweet potato fries loaded with lots of fresh summer vegetables and a lime ranch. By adding a seasoning blend with chipotle powder, garlic, and onion, these spicy sweet potato fries are full of flavor.</p>
+          </div>
+        </div>
+        
+        <div class="special-card-info">
+          <h1>Our Specials</h1>
+          <p>All of our food is prepared daily at our restaurants to ensure the highest quality, freshest meals are delivered to our customers</p>
+          <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-success fs-5 fw-semibold">Book Table</button></a>
+        </div>
+        
+      </div>
+    </section>
+    <!-- top dishes section -->
+    <section class="container">
+      <h3 class="p-3 fw-bold">Top Dishes</h3>
+      <div class="row gap-5">
+        <!-- dish 1 -->
+        <div class="bg-event w-25 rounded-3 my-3 col-6 p-3 d-flex gap-5 top-dishes">
+          <div class="top-dish">
+            <img class="rounded-3" src="images/food1.jpg" alt="">
+          </div>
+          <div>
+            <h4>Vegan Salad bowl</h4>
+            <h5 class="text-success">$12</h5>
+            <div class="text-success">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>        
+            </div>
+          </div>
+        </div>
+        <!-- dish 2 -->
+        <div class="bg-event w-25 h-25 rounded-3 my-3 col-6 p-3 d-flex gap-5">
+          <div class="top-dish">
+            <img class="rounded-3" src="images/food2.jpg" alt="">
+          </div>
+          <div>
+            <h4>Vegan Salad bowl</h4>
+            <h5 class="text-success">$12</h5>
+            <div class="text-success">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>        
+            </div>
+          </div>
+        </div>
+        <!-- dish 3 -->
+        <div class="bg-event w-25 h-25 rounded-3 my-3 col-6 p-3 d-flex gap-5">
+          <div class="top-dish">
+            <img class="rounded-3" src="images/food3.jpg" alt="">
+          </div>
+          <div>
+            <h4>Vegan Salad bowl</h4>
+            <h5 class="text-success">$12</h5>
+            <div class="text-success">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>        
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- discount section -->
+    <section class="container">
+      <div class="d-flex gap-5 w-full p-3 rounded-3 bg-event m-5">
+        <div class="d-flex gap-3">
+          <img class="discounts-img rounded-3" src="images/food1.jpg" alt="">
+          <img class="discounts-img rounded-3" src="images/food3.jpg" alt="">
+          <img class="discounts-img rounded-3" src="images/food2.jpg" alt="">
+        </div>
+        <div class="lh-sm d-flex flex-column justify-content-center">
+          <h4>20% OFF</h4>
+          <h2 class="fw-bold">Demo Dish For Discount</h2>
+          <h4><span class="text-decoration-line-through">$45</span> $35</h4>
+          <div class="text-success mb-3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>        
+          </div>
+          <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-success fs-5 fw-semibold">Book Table</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- media section -->
+    <section class="media-sec">
+      <div class="container d-flex gap-5 my-5">
+        <video class="object-fit-contain" autoplay muted controls>
+          <source src="images/foodvideo1.mp4" type="video/mp4">
+        </video>
+        <img class="media-img" src="images/food2.jpg" alt="">
+      </div>
+    </section>
+    <!-- choose section -->
+    <section>
+      <div class="container p-5">
+        <div class="row align-items-center">
+          <div class="col-8">
+            <h1>Why Choose Our Food</h1>
+            <p>Quality of Service, Food, Ambiance, and Value of Money are the primary elements for choosing a restaurant. Shaif's Cuisine is one of the most exquisite fine-dinning restaurant in Chittagong cities with a captivating view of GEC Hills, perfect ambiance, and scrumptious food.</p>
+          </div>
+          <div class="col-4">
+            <div class="row gap-2 align-items-center justify-content-center">
+              <div class="col-5 bg-event rounded-3">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="choose-img">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+                  </svg>            
+                  <h6>Quality Food</h6>
+                </div>
+              </div>
+              <div class="col-5 bg-event rounded-3">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="choose-img">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+                  </svg>            
+                  <h6>Quality Food</h6>
+                </div>
+              </div>
+              <div class="col-5 bg-event rounded-3">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="choose-img">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+                  </svg>            
+                  <h6>Quality Food</h6>
+                </div>
+              </div>
+              <div class="col-5 bg-event rounded-3">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="choose-img">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+                  </svg>            
+                  <h6>Quality Food</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review section -->
+    <section class="container p-5">
+      <div class="">
+        <h1 class="text-center">What Our Customers Say</h1>
+        <div class="row gap-5 justify-content-center">
+          <div class="bg-event d-flex rounded-3 col-5 gap-3 align-items-center p-4">
+            <img class="review-img rounded" src="images/review1.jpg" alt="">
+            <div>
+              <h5>Sayed Ahmed</h5>
+              <div class="text-success mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>        
+              </div>
+              <p>“Visited Shaif's Cuisine with friends last Sunday. Really lovely meal and very warm welcome - we would recommend this lovely restaurant and will try to go back again”</p>
+            </div>
+          </div>
+          <div class="bg-event d-flex rounded-3 col-5 gap-3 align-items-center p-4">
+            <img class="review-img rounded" src="images/review1.jpg" alt="">
+            <div>
+              <h5>Sayed Ahmed</h5>
+              <div class="text-success mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>        
+              </div>
+              <p>“Visited Shaif's Cuisine with friends last Sunday. Really lovely meal and very warm welcome - we would recommend this lovely restaurant and will try to go back again”</p>
+            </div>
+          </div>
+          <div class="bg-event d-flex rounded-3 col-5 gap-3 align-items-center p-4">
+            <img class="review-img rounded" src="images/review1.jpg" alt="">
+            <div>
+              <h5>Sayed Ahmed</h5>
+              <div class="text-success mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>        
+              </div>
+              <p>“Visited Shaif's Cuisine with friends last Sunday. Really lovely meal and very warm welcome - we would recommend this lovely restaurant and will try to go back again”</p>
+            </div>
+          </div>
+          <div class="bg-event d-flex rounded-3 col-5 gap-3 align-items-center p-4">
+            <img class="review-img rounded" src="images/review1.jpg" alt="">
+            <div>
+              <h5>Sayed Ahmed</h5>
+              <div class="text-success mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>        
+              </div>
+              <p>“Visited Shaif's Cuisine with friends last Sunday. Really lovely meal and very warm welcome - we would recommend this lovely restaurant and will try to go back again”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- newsletter section -->
+    <section class="container">
+      <div class="d-flex gap-5 rounded-3 m-5 p-5 bg-event justify-content-center align-items-center">
+        <div>
+          <h1>Join Newsletter</h1>
+          <p>Get notified with the latest news and recent offers from the “Shaif's Cuisine”</p>
+        </div>
+        <div class="input-group w-50">
+          <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+          <button type="button" class="btn btn-success fs-5 fw-semibold" data-mdb-ripple-init>search</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-event">
+    <div class="container d-flex fs-5">
+      <div class="w-50 p-5 gap-3">
+        <h1><a class="navbar-brand" href="#">Food Zone</a></h1>
+        <p>Fresh and delicious traditional Bangladeshi food to delight the whole family.</p>
+        <p class="fw-bold">Follow us</p>
+        <div>
+          <ul class="d-flex list-unstyled gap-2">
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg></a></li>
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg></a></li>
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+            </svg></a></li>
+          </ul>
+        </div>
+      </div>
+        <div class="w-25 p-5">
+          <ul class="list-unstyled gap-2">
+            <li><a class="fw-semibold" href="">Links</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href=""> Book Table</a></li>
+            <li><a href=""> About Us</a></li>
+            <li><a href=""> contact Us</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="w-25 p-5">
+          <ul class="list-unstyled gap-2">
+          <li><a class="fw-semibold" href="">Support</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Support Center</a></li>
+          <li><a href="">Feedback</a></li>
+        </ul>
+      </div>
+        <div class="w-25 p-5">
+          <ul class="list-unstyled gap-2">
+            <li><a class="fw-semibold" href="">Contact</a></li>
+            <li><a href="">+88</a></li>
+            <li><a href="">webnaz@gmail.com</a></li>
+            <li><a href="">GEC Circle, Chittagong,<br> Bangladesh</a></li>
+          </ul>
+        </div>
+   
+    </div>
+  </footer>
+  <!-- bootstrap js -->
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/eccb899089.js" crossorigin="anonymous"></script>
+</body>
+</html>
